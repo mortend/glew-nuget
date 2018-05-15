@@ -1,0 +1,8 @@
+*/
+*.nupkg
+*.zip
+*.vcxproj
+*.filters
+*.sln
+*.cmake
+CMakeCache.txt

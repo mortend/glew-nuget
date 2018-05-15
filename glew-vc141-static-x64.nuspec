@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>glew-vc141-static-x64</id>
+    <version>$version$</version>
+    <authors>mortend</authors>
+    <owners>mortend</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/nigels-com/glew#copyright-and-licensing</licenseUrl>
+    <projectUrl>http://glew.sourceforge.net/</projectUrl>
+    <description>Header files and static builds of libGLEW for Visual Studio 2017.</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>glew libglew</tags>
+  </metadata>
+  <files>
+    <file src="build\**\*" target="build" />
+  </files>
+</package>
